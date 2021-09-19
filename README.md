@@ -1,6 +1,6 @@
 # GuessTheNumber
 
-*This is a simple game where user can guess a number between either 0-10, 0-50 or 0-100 and acoording to his number of attempts the score will display.* 
+*This is a simple game where the user can guess a number between either 0-10, 0-50, or 0-100 and according to his number of attempts, the score will display.* 
 
 ## Feature include
 
