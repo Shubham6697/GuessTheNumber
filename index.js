@@ -111,5 +111,5 @@ document.querySelector(".reset").addEventListener("click", function () {
 
 
 function rule(){
-    alert("Game Rule\n\n 1. Game generates a secret random number.\n 2. You have choose a range of numbers and then enter your guess number. \n 3. Maximum 20 attempts(life) will given initially to the you.\n 4. For each guess, the game displays whether the answer is higher, lower, close or correct.");
+    alert("Game Rule\n\n 1. Game generates a secret random number.\n 2. You have choose a range of numbers and then enter your guess number. \n 3. Maximum 20 attempts(life) will given initially to you.\n 4. For each guess, the game displays whether the answer is higher, lower, close or correct.");
 }
