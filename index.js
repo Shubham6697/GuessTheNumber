@@ -7,12 +7,9 @@ const scoreDOM = document.querySelector('.score');
 let score = 20;
 let highscore = 0;
 
-// guess button
-let guessButton = document.querySelector(".submit");
 
+document.querySelector(".submit").addEventListener("click",function() {
 
-guessButton.addEventListener("click",function() {
-    //event.preventDefault();
     let guess = document.querySelector(".number").value;
     //console.log(answer);
 
