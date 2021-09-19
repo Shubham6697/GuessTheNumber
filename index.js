@@ -10,9 +10,9 @@ let highscore = 0;
 // guess button
 let guessButton = document.querySelector(".submit");
 
-function handleGuessClick(event) {
 
-    event.preventDefault();
+guessButton.addEventListener("click",function() {
+    //event.preventDefault();
     let guess = document.querySelector(".number").value;
     //console.log(answer);
 
@@ -53,8 +53,7 @@ function handleGuessClick(event) {
   }
 
   
-}
-guessButton.addEventListener("click", handleGuessClick);
+});
 
 // range buttons
 let range10Button = document.querySelector(".range10");
@@ -62,6 +61,7 @@ let range50Button = document.querySelector(".range50");
 let range100Button = document.querySelector(".range100");
 
 function handleRange10Click(event) {
+    document.querySelector("body").style.backgroundColor = "#222";
     range10Button.classList.add("selected");
     range50Button.classList.remove("selected");
     range100Button.classList.remove("selected");
@@ -70,6 +70,7 @@ function handleRange10Click(event) {
 }
 
 function handleRange50Click(event) {
+    document.querySelector("body").style.backgroundColor = "#222";
     range10Button.classList.remove("selected");
     range50Button.classList.add("selected");
     range100Button.classList.remove("selected");
@@ -78,6 +79,7 @@ function handleRange50Click(event) {
 }
 
 function handleRange100Click(event) {
+    document.querySelector("body").style.backgroundColor = "#222";
     range10Button.classList.remove("selected");
     range50Button.classList.remove("selected");
     range100Button.classList.add("selected");
@@ -109,3 +111,8 @@ document.querySelector(".reset").addEventListener("click", function () {
     document.querySelector("body").style.backgroundColor = "#222";
   
 });
+
+
+function rule(){
+    alert("Game Rule\n\n 1. Game generates a secret random number.\n 2. You have choose a range of numbers and then enter your guess number. \n 3. Maximum 20 attempts(life) will given initially to the you.\n 4. For each guess, the game displays whether the answer is higher, lower, close or correct.");
+}

@@ -78,7 +78,7 @@ input[type="number"],select {
 .btn {
     width: 10%;
     align-content: center;
-    
+    outline: none;
     background-color: rgba(85, 33, 60, 0.884);
     color: white;
     padding: 14px 15px;
