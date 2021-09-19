@@ -19,7 +19,7 @@
 
 
 ## Host Link
-https://shubham6697.github.io/GuessTheNumber/
+<a href="https://shubham6697.github.io/GuessTheNumber/">👉Click here</a>
 
 ## Screenshots
 <img src="https://github.com/Shubham6697/GuessTheNumber/blob/3b943a8b749d1de3bd419345c6ac438ef32631d0/Screenshot/1.png"/>
