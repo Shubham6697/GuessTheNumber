@@ -34,9 +34,9 @@ document.querySelector(".submit").addEventListener("click",function() {
         if(score >= 1){
             
             if (guess > answer && (guess - answer) <= 3 ) 
-                document.querySelector(".message").textContent = "🤏 You are close! Keep going Hint(⬇)";
+                document.querySelector(".message").textContent = "🤏 You are close! Keep going, Think ⬇";
             else if(Math.abs(answer - guess) <= 3)
-                document.querySelector(".message").textContent = "🤏 You are close! Keep going Hint(⬆)";
+                document.querySelector(".message").textContent = "🤏 You are close! Keep going, Think ⬆";
             else
                 message.textContent = guess > answer ? "📈 Too High!" : "📉 Too Low!";    
             
